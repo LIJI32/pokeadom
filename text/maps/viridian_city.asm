@@ -1,181 +1,179 @@
 _ViridianCityText1:: ; a43cc (29:43cc)
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "יש לך על המותן"
+	line "!פוכדורים"
+	cont "!יש לך פוקימונים"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	para "נפלא שאתה יכול"
+	line "לשאת ולהשתמש"
+	cont "בפוקימונים בכל"
+	cont "!זמן או מקום"
 	done
 
 _ViridianCityText_19122:: ; a4437 (29:4437)
-	text "This #MON GYM"
-	line "is always closed."
+	text "מכון הפוקימונים"
+	line ".הזה תמיד סגור"
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "מעניין מי"
+	line "?המנהיג שלו"
 	done
 
 _ViridianCityText_19127:: ; a4474 (29:4474)
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "מנהיג מכון העיר"
+	line "!ורידיאן חזר"
 	done
 
 _ViridianCityText_1914d:: ; a4494 (29:4494)
-	text "You want to know"
-	line "about the 2 kinds"
-	cont "of caterpillar"
-	cont "#MON?"
+	text "רוצה להכיר"
+	line "את 2 סוגי"
+	cont "פוקימוני"
+	cont "?הזחל"
 	done
 
 _ViridianCityText_19152:: ; a44cd (29:44cd)
-	text "Oh, OK then!"
+	text "!אה, בסדר גמור"
 	done
 
 _ViridianCityText_19157:: ; a44db (29:44db)
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "לקאטרפי אין"
+	line "רעל, אבל"
+	cont ".לווידל יש"
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "היזהר ממתקפת"
+	line "!עוקץ רעל שלו"
 	done
 
 _ViridianCityText_19175:: ; a4525 (29:4525)
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "אוי סבא! אל"
+	line "!תהיה כזה מרושע"
+	cont "הוא עוד לא שתה"
+	cont ".את הקפה שלו"
 	done
 
 _ViridianCityText_1917a:: ; a4560 (29:4560)
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "כשאני יוצא לקניות"
+	line "בעיר פיוטר, אני"
+	cont "חייב ללכת"
+	cont "בשביל העקלקל"
+	cont ".שביער ורידיאן"
 	done
 
 _ViridianCityText_19191:: ; a45b5 (29:45b5)
-	text "You can't go"
-	line "through here!"
+	text "אתה לא יכול"
+	line "!לעבור כאן"
 
-	para "This is private"
-	line "property!"
+	para "זהו שטח"
+	line "!פרטי"
 	done
 
 _ViridianCityText_191ca:: ; a45ea (29:45ea)
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "!פיהוק"
+	line "בטח נמנמתי"
+	cont ".לי תחת השמש"
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	para "היה לי חלום"
+	line "על דראוזי שאוכל"
+	cont ".לי את החלום"
+	cont "?מה"
+	cont "מאיפה המ"ט"
+	cont "?הזה הגיע"
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "!זה מלחיץ"
+	line "הנה, אתה יכול"
+	cont ".לקחת את המ"ט הזה"
 	prompt
 
 _ReceivedTM42Text:: ; a469a (29:469a)
-	text $52, " received"
-	line "TM42!@@"
+	text $52, " קיבל"
+	line "!מ"ט42@@"
 
 _TM42Explanation:: ; a46ad (29:46ad)
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "מ"ט42 מכיל את"
+	line "'המתקפה 'אוכל חלומות"
+	cont "...נחירה..."
 	done
 
 _TM42NoRoomText:: ; a46d7 (29:46d7)
-	text "You have too much"
-	line "stuff already."
+	text "אתה נושא יותר"
+	line ".מדי דברים"
 	done
 
 _ViridianCityText_1920a:: ; a46f9 (29:46f9)
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "הא, שתיתי את הקפה"
+	line "שלי ועכשיו אני"
+	cont "!מרגיש נפלא"
 
-	para "Sure you can go"
-	line "through!"
+	para "בטח, אתה יכול"
+	line "!לעבור"
 
-	para "Are you in a"
-	line "hurry?"
+	para "?אתה ממהר"
 	done
 
 _ViridianCityText_1920f:: ; a4754 (29:4754)
-	text "I see you're using"
-	line "a #DEX."
+	text "אני רואה שאתה"
+	line ".משתמש בפוקידע"
 
-	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
-	cont "updated."
+	para "כשאתה לוכד פוקימון"
+	line "הפוקידע מתעדכן"
+	cont "באופן אוטומטי"
 
-	para "What? Don't you"
-	line "know how to catch"
-	cont "#MON?"
+	para "מה? אתה לא"
+	line "יודע איך ללכוד"
+	cont "?פוקימונים"
 
-	para "I'll show you"
-	line "how to then."
+	para "אם כך, אני"
+	line ".אראה לך איך"
 	done
 
 _ViridianCityText_19214:: ; a47e6 (29:47e6)
-	text "Time is money..."
-	line "Go along then."
+	text "...זמן שווה כסף"
+	line ".אז לך מכאן"
 	done
 
 _ViridianCityText_19219:: ; a4807 (29:4807)
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "קודם כל, צריך"
+	line "להחליש את"
+	cont ".הפוקימון היריב"
 	done
 
 _ViridianCityText8:: ; a4833 (29:4833)
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "העיר ורידיאן "
+	line "גן העדן הירוק"
+	cont "הנצחי"
 	done
 
 _ViridianCityText9:: ; a4860 (29:4860)
-	text "TRAINER TIPS"
+	text "עצות למאמן"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
+	para "לכוד פוקימונים"
+	line "והגדל את"
+	cont "!האוסף שלך"
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "ככל שיש לך"
+	line "יותר, כך קל"
+	cont "!יותר להילחם"
 	done
 
 _ViridianCityText10:: ; a48c3 (29:48c3)
-	text "TRAINER TIPS"
+	text "עצות למאמן"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "מהלכי הקרב"
+	line "של פוקימונים"
+	cont "מוגבלים על ידי"
+	cont ".נ"כ, נקודות כוח"
 
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	para "על מנת לחדש נ"כ"
+	line "תן לפוקימון"
+	cont "העייף שלך לנוח
+	cont "!במרכז פוקימונים
 	done
 
 _ViridianCityText13:: ; a4949 (29:4949)
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	text "העיר ורידיאן
+	line "מכון פוקימונים
 	done
 
 _ViridianCityText14:: ; a4961 (29:4961)
-	text "The GYM's doors"
-	line "are locked..."
+	text "דלתות המכון
+	line "...נעולות
 	done
 
