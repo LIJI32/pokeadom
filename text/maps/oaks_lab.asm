@@ -1,170 +1,169 @@
 _OaksLabGaryText1:: ; 94d5b (25:4d5b)
-	text $53, ": Yo"
-	line $52, "! Gramps"
-	cont "isn't around!"
+	text $53, ":היי"
+	line $52, "!סבאל'ה"
+	cont "!לא נמצא"
 	done
 
 _OaksLabText40:: ; 94d79 (25:4d79)
-	text $53, ": Heh, I"
-	line "don't need to be"
-	cont "greedy like you!"
+	text $53, "חה, אני:"
+	line "לא צריך להיות"
+	cont "!חמדן כמוך"
 
-	para "Go ahead and"
-	line "choose, ", $52, "!"
+	para "קדימה, תבחר"
+	line ",לך", $52, "!"
 	done
 
 _OaksLabText41:: ; 94dbd (25:4dbd)
-	text $53, ": My"
-	line "#MON looks a"
-	cont "lot stronger."
+	text $53, "הפוקימון:"
+	line "נראה הרבה"
+	cont ".יותר חזק"
 	done
 
 _OaksLabText39:: ; 94ddf (25:4ddf)
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "# אלו "
+	line "כדורים. הם"
+	cont "!מכילים פוקימונים"
 	done
 
 _OaksLabCharmanderText:: ; 94e06 (25:4e06)
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "אז, אתה רוצה"
+	line ",את פוקימון האש"
+	cont "?צ'ארמנדר"
 	done
 
 _OaksLabSquirtleText:: ; 94e2f (25:4e2f)
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "אז, אתה רוצה"
+	line ",את פוקימון המים"
+	cont "?סקווירטל"
 	done
 
 _OaksLabBulbasaurText:: ; 94e57 (25:4e57)
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "אז, אתה רוצה
+	line ",את פוקימון הצמח"
+	cont "?בולבאזאור"
 	done
 
 _OaksLabMonEnergeticText:: ; 94e80 (25:4e80)
-	text "This #MON is"
-	line "really energetic!"
+	text "הפוקימון הזה"
+	line "!מלא מרץ"
 	prompt
 
 _OaksLabReceivedMonText:: ; 94ea0 (25:4ea0)
-	text $52, " received"
-	line "a @"
+	text $52, " קיבלת"
+	line "@"
 	TX_RAM wcd6d
 	text "!@@"
 
 _OaksLabLastMonText:: ; 94eb6 (25:4eb6)
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "זה הפוקימון האחרון"
+	line "!של פרופסור אוק"
 	done
 
 _OaksLabText_1d2f0:: ; 94ed2 (25:4ed2)
-	text "OAK: Now, ", $52, ","
-	line "which #MON do"
-	cont "you want?"
+	text ",אוק: אז", $52, ","
+	line "איזה פוקימון"
+	cont "?אתה רוצה"
 	done
 
 _OaksLabText_1d2f5:: ; 94ef8 (25:4ef8)
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "אוק: אם פוקימון"
+	line ",פראי מופיע"
+	cont "הפוקימון שלך יכול"
+	cont "!להילחם נגדו"
 	done
 
 _OaksLabText_1d2fa:: ; 94f36 (25:4f36)
-	text "OAK: ", $52, ","
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	text "אוק:", $52, ","
+	line "גדל את הפוקימון"
+	cont "הצעיר שלך בעזרת"
+	cont "!קרבות"
 	done
 
 _OaksLabDeliverParcelText1:: ; 94f69 (25:4f69)
-	text "OAK: Oh, ", $52, "!"
+	text ",אוק: אה", $52, "!"
 
-	para "How is my old"
-	line "#MON?"
+	para "בן כמה"
+	line "?הפוקימון שלי"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "ובכן, נראה שהוא"
+	line ".מחבב אותך"
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "בטח יש לך כישרון"
+	line "!באימון פוקימונים"
 
-	para "What? You have"
-	line "something for me?"
+	para "מה? יש לך"
+	line "?משהו בשבילי"
 
-	para $52, " delivered"
-	line "OAK's PARCEL.@@"
+	para $52, " מסרת את"
+	line "@@.החבילה של אוק"
 
 _OaksLabDeliverParcelText2:: ; 9500f (25:500f)
 	db $0
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	para "!אה! זה הפוכדור"
+	line "המיוצר באופן"
+	cont "!אישי שהזמנתי"
+	cont "!תודה"
 	done
 
 _OaksLabAroundWorldText:: ; 95045 (25:5045)
-	text "#MON around the"
-	line "world wait for"
-	cont "you, ", $52, "!"
+	text "פוקימונים מחכים"
+	line "בכל העולם"
+	cont "רק לך, ", $52, "!"
 	done
 
 _OaksLabGivePokeballsText1:: ; 9506d (25:506d)
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "אוק: אתה לא יכול"
+	line "לקבל מידע מפורט"
+	cont "על פוקימונים"
+	cont ".רק מלראות אותם"
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
+	para "אתה צריך לתפוס"
+	line "אותם! השתמש באלו"
+	cont "בשביל ללכוד"
+	cont ".פוקימונים פראיים"
 
-	para $52, " got 5"
-	line "# BALLs!@@"
+	para $52, " קיבלת 5"
+	line "@@#!כדורים"
 
 _OaksLabGivePokeballsText2:: ; 950f2 (25:50f2)
 	db $0
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "כאשר פוקימון"
+	line ",פראי מופיע"
+	cont ".זה משחק הוגן"
 
-	para "Just throw a #"
-	line "BALL at it and try"
-	line "to catch it!"
+	para "# פשוט זרוק"
+	line "כדור ונסה"
+	line "!לתפוס אותו"
 
-	para "This won't always"
-	line "work, though."
+	para "אבל זה לא"
+	line ".תמיד יעבוד"
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "פוקימון בריא"
+	line "יכול לברוח. צריך"
+	cont "!להיות לך מזל"
 	done
 
 _OaksLabPleaseVisitText:: ; 9519e (25:519e)
-	text "OAK: Come see me"
-	line "sometimes."
+	text "אוק: בוא לבקר"
+	line ".אותי מדי פעם"
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "אני רוצה לדעת"
+	line "איך השלמת הפוקידע"
+	cont ".שלך מתקדמת"
 	done
 
 _OaksLabText_1d31d:: ; 951e9 (25:51e9)
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
-	cont "Here, let me take"
-	cont "a look!"
+	text "אוק: טוב לראות"
+	line "אותך! איך הולך לך"
+	cont "?עם השלמת הפוקידע"
+	cont "קדימה, תן לי"
+	cont "!להעיף מבט"
 	prompt
 
 _OaksLabText_1d32c:: ; 95236 (25:5236)
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "זה כמו"
+	line "אינציקלופדיה, אבל"
+	cont "!הדפים ריקים"
 	done
 
 _OaksLabText8:: ; 95268 (25:5268)
@@ -172,307 +171,307 @@ _OaksLabText8:: ; 95268 (25:5268)
 	done
 
 _OaksLabText_1d340:: ; 9526b (25:526b)
-	text "PROF.OAK is the"
-	line "authority on"
-	cont "#MON!"
+	text "פרופסור אוק הוא"
+	line "המומחה בכל"
+	cont "!הנוגע לפוקימונים"
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "הרבה מאמני"
+	line "פוקימונים מאוד"
+	cont "!מעריכים אותו"
 	done
 
 _OaksLabRivalWaitingText:: ; 952bb (25:52bb)
-	text $53, ": Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text $53, "!סבאל'ה:"
+	line "נמאס לי"
+	cont "!לחכות"
 	done
 
 _OaksLabChooseMonText:: ; 952df (25:52df)
-	text "OAK: ", $53, "?"
-	line "Let me think..."
+	text ":אוק", $53, "?"
+	line "...תן לי לחשוב"
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para ",אה, כן"
+	line "!אמרתי לך לבוא"
+	cont "!חכה רגע"
 
-	para "Here, ", $52, "!"
+	para ",הנה ", $52, "!"
 
-	para "There are 3"
-	line "#MON here!"
+	para "ישנם 3"
+	line "!פוקימונים פה"
 
-	para "Haha!"
+	para "!חהחה"
 
-	para "They are inside"
-	line "the # BALLs."
+	para "הם בתוך"
+	line ".הכדורים"
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
+	para ",כשהייתי צעיר"
+	line "הייתי מאמן"
+	cont "!פוקימונים רציני"
 
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	para ",בגילי המופלג"
+	line ",נשארו לי רק 3"
+	cont "אבל אתה יכול לקחת"
+	cont "!אחד! תבחר לך"
 	done
 
 _OaksLabRivalInterjectionText:: ; 953dc (25:53dc)
-	text $53, ": Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	text $53, "!היי:"
+	line "סבאל'ה! מה"
+	cont "?איתי"
 	done
 
 _OaksLabBePatientText:: ; 953fc (25:53fc)
-	text "OAK: Be patient!"
-	line $53, ", you can"
-	cont "have one too!"
+	text "!אוק: חכה בסבלנות"
+	line $53, ", גם אתה יכול"
+	cont "!לקחת אחד"
 	done
 
 _OaksLabLeavingText:: ; 95427 (25:5427)
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "אוק: היי, אל"
+	line "!תלך עדיין"
 	done
 
 _OaksLabRivalPickingMonText:: ; 95444 (25:5444)
-	text $53, ": I'll take"
-	line "this one, then!"
+	text $53, "אם כך:"
+	line "!אקח אותו"
 	done
 
 _OaksLabRivalReceivedMonText:: ; 95461 (25:5461)
-	text $53, " received"
-	line "a @"
+	text $53, " קיבל"
+	line "@"
 	TX_RAM wcd6d
 	text "!@@"
 
 _OaksLabRivalChallengeText:: ; 95477 (25:5477)
-	text $53, ": Wait"
+	text $53, "חכה:"
 	line $52, "!"
-	cont "Let's check out"
-	cont "our #MON!"
+	cont "בוא נבדוק את"
+	cont "!הפוקימונים שלנו"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "קדימה, אני"
+	line "!אלחם נגדך"
 	done
 
 _OaksLabText_1d3be:: ; 954b6 (25:54b6)
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "?מה"
+	line "!לא יאומן"
+	cont "בחרתי את הפוקימון"
+	cont "!הלא נכון"
 	prompt
 
 _OaksLabText_1d3c3:: ; 954e4 (25:54e4)
-	text $53, ": Yeah! Am"
-	line "I great or what?"
+	text $53, "יש! אני:"
+	line "?מדהים או מה"
 	prompt
 
 _OaksLabRivalToughenUpText:: ; 95502 (25:5502)
-	text $53, ": Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text $53, "!טוב:"
+	line "אדאג שהפוקימון"
+	cont "שלי יילחם"
+	cont "!בשביל להתחזק"
 
-	para $52, "! Gramps!"
-	line "Smell you later!"
+	para $52, "! סבאל'ה!"
+	line "!נתראה אחר כך"
 	done
 
 _OaksLabText21:: ; 95551 (25:5551)
-	text $53, ": Gramps!"
+	text $53, "!סבאל'ה:"
 	done
 
 _OaksLabText22:: ; 9555d (25:555d)
-	text $53, ": What did"
-	line "you call me for?"
+	text $53, "למה קראת:"
+	line "?לי"
 	done
 
 _OaksLabText23:: ; 9557b (25:557b)
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "!אוק: אה, כן"
+	line "יש לי בקשה"
+	cont ".עבור שניכם"
 	done
 
 _OaksLabText24:: ; 955a8 (25:55a8)
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
+	text "על השולחן שם"
+	line ",נמצאת ההמצאה שלי"
+	cont "!הפוקידע"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "הוא אוסף מידע"
+	line "באופן אוטומטי"
+	cont "על פוקימונים"
+	cont "!שראית או לכדת"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "זו אינציקלופדיה"
+	line "!מתקדמת"
 	done
 
 _OaksLabText25:: ; 9562a (25:562a)
-	text "OAK: ", $52, " and"
-	line $53, "! Take"
-	cont "these with you!"
+	text ":אוק", $52, " ו"
+	line $53, "קחו!"
+	cont "!את אלו איתכם"
 
-	para $52, " got"
-	line "#DEX from OAK!@@"
+	para $52, " קיבלת"
+	line "@@!פוקידע מפרופסור אוק"
 
 _OaksLabText26:: ; 95664 (25:5664)
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "ליצור את המדריך"
+	line "השלם על כל"
+	cont "פוקימון שקיים"
+	cont "...בעולם"
 
-	para "That was my dream!"
+	para "!זה היה החלום שלי"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "!אבל אני זקן מדי"
+	line "!אני לא יכול לעשות את זה"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "אז אני רוצה ששניכם"
+	line "תגשימו את החלום"
+	cont "!שלי בשבילי"
 
-	para "Get moving, you"
-	line "two!"
+	para ",צאו לדרך"
+	line "!שניכם"
 
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "זוהי משימה"
+	line "חשובה בהיסטוריית"
+	cont "!הפוקימונים"
 	done
 
 _OaksLabText27:: ; 95741 (25:5741)
-	text $53, ": Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text $53, "בסדר גמור:"
+	line "!סבאל'ה"
+	cont "!סמוך עליי"
 
-	para $52, ", I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para $52, ",לא נעים לי"
+	line ",להגיד, אבל אני"
+	cont "!לא צריך אותך"
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "אני יודע! אשאיל"
+	line "את מפת הערים"
+	cont "!מאחותי"
 
-	para "I'll tell her not"
-	line "to lend you one,"
-	cont $52, "! Hahaha!"
+	para "אגיד לה לא"
+	line ",להשאיל לך אחת"
+	cont $52, "!חהחהחה !"
 	done
 
 _OaksLabText_1d405:: ; 957eb (25:57eb)
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "אני חוקר פוקימונים"
+	line ".כעוזר של פרופסור אוק"
 	done
 
 _OaksLabText_441cc:: ; 9580c (25:580c)
-	text "#DEX comp-"
-	line "letion is:"
+	text "התקדמות השלמת"
+	line ":הפוקידע"
 
 	para "@"
 	TX_NUM $ffdb, 1, 3
-	text " #MON seen"
+	text " פוקימונים שנראו"
 	line "@"
 	TX_NUM $ffdc, 1, 3
-	text " #MON owned"
+	text " פוקימונים בבעלותך"
 
-	para "PROF.OAK's"
-	line "Rating:"
+	para "הדירוג של"
+	line ":פרופסור אוק"
 	prompt
 
 _OaksLabText_44201:: ; 95858 (25:5858)
-	text "You still have"
-	line "lots to do."
-	cont "Look for #MON"
-	cont "in grassy areas!"
+	text "יש לך עוד"
+	line ".הרבה מה לעשות"
+	cont "חפש פוקימונים"
+	cont "!באזורים עם דשא"
 	done
 
 _OaksLabText_44206:: ; 95893 (25:5893)
-	text "You're on the"
-	line "right track! "
-	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	text "אתה בדרך"
+	line "!הנכונה"
+	cont "!'קח מ"נ 'הבזק"
+	cont "!מהעוזר שלי"
 	done
 
 _OaksLabText_4420b:: ; 958cc (25:58cc)
-	text "You still need"
-	line "more #MON!"
-	cont "Try to catch"
-	cont "other species!"
+	text "אתה עדיין צריך"
+	line "!עוד פוקימונים"
+	cont "נסה לתפוס"
+	cont "!זנים אחרים"
 	done
 
 _OaksLabText_44210:: ; 95903 (25:5903)
-	text "Good, you're"
-	line "trying hard!"
-	cont "Get an ITEMFINDER"
-	cont "from my AIDE!"
+	text "יופי, אתה"
+	line "!עובד קשה"
+	cont "קח מוצא חפצים"
+	cont "!מהעוזר שלי"
 	done
 
 _OaksLabText_44215:: ; 9593d (25:593d)
-	text "Looking good!"
-	line "Go find my AIDE"
-	cont "when you get 50!"
+	text "!מעולה"
+	line "לך אל העוזר שלי"
+	cont "!כשתשיג 50"
 	done
 
 _OaksLabText_4421a:: ; 9596d (25:596d)
-	text "You finally got at"
-	line "least 50 species!"
-	cont "Be sure to get"
-	cont "EXP.ALL from my"
-	cont "AIDE!"
+	text "סוף סוף הגעת"
+	line "!ל-50 זנים"
+	cont "תדאג לקחת"
+	cont "'נק"פ-לכולם'"
+	cont "!מהעוזר שלי"
 	done
 
 _OaksLabText_4421f:: ; 959b8 (25:59b8)
-	text "Ho! This is geting"
-	line "even better!"
+	text "הו! זה ממשיך"
+	line "!להשתפר"
 	done
 
 _OaksLabText_44224:: ; 959d9 (25:59d9)
-	text "Very good!"
-	line "Go fish for some"
-	cont "marine #MON!"
+	text "!מעולה"
+	line "לך לדוג"
+	cont "!פוקימונים ימיים"
 	done
 
 _OaksLabText_44229:: ; 95a03 (25:5a03)
-	text "Wonderful!"
-	line "Do you like to"
-	cont "collect things?"
+	text "!נפלא"
+	line "אתה אוהב"
+	cont "?לאסוף דברים"
 	done
 
 _OaksLabText_4422e:: ; 95a2e (25:5a2e)
-	text "I'm impressed!"
-	line "It must have been"
-	cont "difficult to do!"
+	text "!מרשים"
+	line "בטח היה קשה"
+	cont "!לעשות את זה"
 	done
 
 _OaksLabText_44233:: ; 95a60 (25:5a60)
-	text "You finally got at"
-	line "least 100 species!"
-	cont "I can't believe"
-	cont "how good you are!"
+	text "סוף סוף לכדת"
+	line "!לפחות 100 זנים"
+	cont "אני לא מאמין"
+	cont "!כמה אתה טוב"
 	done
 
 _OaksLabText_44238:: ; 95aa8 (25:5aa8)
-	text "You even have the"
-	line "evolved forms of"
-	cont "#MON! Super!"
+	text "יש לך אפילו את"
+	line "!הצורות המפותחות"
+	cont "!של פוקימונים! מעולה"
 	done
 
 _OaksLabText_4423d:: ; 95ad9 (25:5ad9)
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "מעולה! תחליף"
+	line "עם חברים כדי"
+	cont "!להשיג עוד"
 	done
 
 _OaksLabText_44242:: ; 95b0a (25:5b0a)
-	text "Outstanding!"
-	line "You've become a"
-	cont "real pro at this!"
+	text "!מדהים"
+	line "נהיית ממש"
+	cont "!מקצוען בזה"
 	done
 
 _OaksLabText_44247:: ; 95b39 (25:5b39)
-	text "I have nothing"
-	line "left to say!"
-	cont "You're the"
-	cont "authority now!"
+	text "לא נותר לי"
+	line "!מה להגיד"
+	cont "אתה הוא"
+	cont "!המומחה כעת"
 	done
 
 _OaksLabText_4424c:: ; 95b6f (25:5b6f)
-	text "Your #DEX is"
-	line "entirely complete!"
-	cont "Congratulations!"
+	text "הפוקידע שלך"
+	line "!הושלם לחלוטין"
+	cont "!ברכותיי"
 	done
 
