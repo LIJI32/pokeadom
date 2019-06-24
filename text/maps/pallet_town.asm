@@ -1,56 +1,56 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@@"
+	text "!אוק: היי! חכה"
+	line "@@!אל תצא החוצה"
 
 _OakWalksUpText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "!אוק: זה מסוכן"
+	line "פוקימונים פראיים"
+	cont "!חיים בעשב הגבוה"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "אתה צריך"
+	line "פוקימון משלך"
+	cont ".להגנה"
+	cont "!אני יודע"
 
-	para "Here, come with"
-	line "me!"
+	para "קדימה, בוא"
+	line "!איתי"
 	done
 
 _PalletTownText2::
-	text "I'm raising"
-	line "#MON too!"
+	text "אני גם מגדל"
+	line "!פוקימונים"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "כשהם מתחזקים"
+	line "הם יכולים"
+	cont "!להגן עליי"
 	done
 
 _PalletTownText3::
-	text "Technology is"
-	line "incredible!"
+	text "הטכנולוגיה"
+	line "!מדהימה"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "אתה יכול לאכסן"
+	line "ולקחת חפצים"
+	cont "ופוקימונים"
+	cont "!כמידע דרך המחשב"
 	done
 
 _PalletTownText4::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "מעבדת חקר"
+	line "הפוקימונים של אוק"
 	done
 
 _PalletTownText5::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "העיירה פאלט"
+	line "צילי המסע"
+	cont "!שלך מחכים"
 	done
 
 _PalletTownText6::
-	text $52,"'s house "
+	text $52,"הבית של"
 	done
 
 _PalletTownText7::
-	text $53,"'s house "
+	text $53,"הבית של"
 	done
 
