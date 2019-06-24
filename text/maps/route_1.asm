@@ -1,50 +1,50 @@
 _Route1ViridianMartSampleText:: ; 8d5bf (23:55bf)
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "שלום! אני עובד"
+	line ".בפוקימרקט"
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "מדובר בחנות"
+	line "נוחות, אז נשמח"
+	cont "שתבקר אותנו"
+	cont ".בעיר ורידיאן"
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "אני יודע, אתן"
+	line "!לך דוגמית"
+	cont "!בבקשה"
 	prompt
 
 _Route1Text_1cae8:: ; 8d643 (23:5643)
-	text $52, " got"
+	text $52, " קיבל"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _Route1Text_1caee:: ; 8d652 (23:5652)
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "יש לנו גם"
+	line "כדורים ללכידת #"
+	cont "!פוקימונים"
 	done
 
 _Route1Text_1caf3:: ; 8d67c (23:567c)
-	text "You have too much"
-	line "stuff with you!"
+	text "אתה נושא יותר"
+	line "!מדי דברים"
 	done
 
 _Route1Text2:: ; 8d69f (23:569f)
-	text "See those ledges"
-	line "along the road?"
+	text "רואה את המדרגות"
+	line "?לאורך השביל"
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para ",זה קצת מפחיד"
+	line "אבל אתה יכול"
+	cont ".לקפוץ מהן"
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "אתה יכול לחזור"
+	line "לעיירה פאלט"
+	cont ".מהר יותר ככה"
 	done
 
 _Route1Text3:: ; 8d720 (23:5720)
-	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	text "דרך 1"
+	line "- העיירה פאלט"
+	cont "העיר ורידיאן"
 	done
 
