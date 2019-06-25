@@ -18,8 +18,8 @@ _AgathaBeforeBattleText:: ; 8686b (21:686b)
 	cont "פוקימונים נועדו"
 	cont "!להילחם"
 
-	para 52$, " אראה לך"
-	line "איך מאמן"
+	para 52$, ", אראה"
+	line "לך איך מאמן"
 	cont "!אמיתי נלחם"
 	done
 
