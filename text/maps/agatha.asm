@@ -14,10 +14,11 @@ _AgathaBeforeBattleText:: ; 8686b (21:686b)
 	para "עכשיו הוא רק"
 	line "רוצה להתעסק עם"
 	cont "הפוקידע שלו! אבל"
-	cont "הוא טועה! פוקימונים"
-	cont "!נועדו בשביל להילחם"
+	cont "!הוא טועה"
+	cont "פוקימונים נועדו"
+	cont "!להילחם"
 
-	para $52, "אראה לך !"
+	para "אראה לך" ,52$
 	line "איך מאמן"
 	cont "!אמיתי נלחם"
 	done
@@ -35,7 +36,8 @@ _AgathaAfterBattleText:: ; 86998 (21:6998)
 
 	para "אין לי עוד"
 	line "!מה להגיד"
-	cont "!המשך הלאה, ילדון"
+	cont ",המשך הלאה"
+	cont "!ילדון"
 	done
 
 _AgathaText2:: ; 869fd (21:69fd)
