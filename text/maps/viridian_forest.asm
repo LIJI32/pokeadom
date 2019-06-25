@@ -1,124 +1,130 @@
-_ViridianForestText1:: ; 8031d (20:431d)
-	text "I came here with"
-	line "some friends!"
+_ViridianForestText1::
+	text "באתי הנה עם"
+	line "!כמה חברים"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "הם הלכו לקיים"
+	line "!קרבות פוקימונים"
 	done
 
-_ViridianForestBattleText1:: ; 80359 (20:4359)
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+_ViridianForestBattleText1::
+	text "היי! יש לך"
+	line "!פוקימונים"
+	cont "קדימה! בוא ניתן"
+	cont "!להם להילחם"
 	done
 
-_ViridianForestEndBattleText1:: ; 80387 (20:4387)
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+_ViridianForestEndBattleText1::
+	text "!לא"
+	line "קאטרפי לא יכול"
+	cont "!לעמוד בזה"
 	prompt
 
-_ViridianFrstAfterBattleText1:: ; 803a2 (20:43a2)
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+_ViridianFrstAfterBattleText1::
+	text "ששש! אתה תרחיק"
+	line "!מפה את החרקים"
 	done
 
-_ViridianForestBattleText2:: ; 803c3 (20:43c3)
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+_ViridianForestBattleText2::
+	text "יו! אתה לא יכול"
+	line "להשתפן אם אתה"
+	cont "!מאמן פוקימונים"
 	done
 
-_ViridianForestEndBattleText2:: ; 803f2 (20:43f2)
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+_ViridianForestEndBattleText2::
+	text "?מה"
+	line "נגמרו לי"
+	cont "!הפוקימונים"
 	prompt
 
-_ViridianFrstAfterBattleText2:: ; 8040b (20:440b)
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+_ViridianFrstAfterBattleText2::
+	text "לעזאזל! אני"
+	line "אתפוס פוקימונים"
+	cont "!יותר חזקים"
 	done
 
-_ViridianForestBattleText3:: ; 80438 (20:4438)
-	text "Hey, wait up!"
-	line "What's the hurry?"
+_ViridianForestBattleText3::
+	text "!היי, חכה"
+	line "?לאן אתה ממהר"
 	done
 
-_ViridianForestEndBattleText3:: ; 80458 (20:4458)
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+_ViridianForestEndBattleText3::
+	text "!אני נכנע"
+	line "!אתה טוב בזה"
 	prompt
 
-_ViridianFrstAfterBattleText3:: ; 80475 (20:4475)
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+_ViridianFrstAfterBattleText3::
+	text "לפעמים אתה"
+	line "יכול למצוא"
+	cont "!חפצים על האדמה"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "אני מחפש"
+	line "!משהו שהפלתי"
 	done
 
-_ViridianForestText8:: ; 804c7 (20:44c7)
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+_ViridianForestText8::
+	text "נגמרו לי"
+	line "הפוכדורים בשביל"
+	cont "!ללכוד פוקימונים"
 
-	para "You should carry"
-	line "extras!"
+	para "כדאי שתיקח לך"
+	line "!כמה עודפים"
 	done
 
-_ViridianForestText9:: ; 8050a (20:450a)
-	text "TRAINER TIPS"
+_ViridianForestText9::
+	text "עצות למאמן"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "אם אתה רוצה"
+	line ",להימנע מקרבות"
+	cont "הישאר הרחק"
+	cont "מהאזורים"
+	cont "!העשביים"
 	done
 
-_ViridianForestText10:: ; 80553 (20:4553)
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+_ViridianForestText10::
+	text "כנגד רעל, השתמש"
+	line "בנוגדן! ניתן"
+	cont "להשיג אותו"
+	cont "!בפוקימרקט"
 	done
 
-_ViridianForestText11:: ; 80584 (20:4584)
-	text "TRAINER TIPS"
+_ViridianForestText11::
+	text "עצות למאמן"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "צור קשר עם"
+	line "פרופסור אוק"
+	cont "באמצעות המחשב"
+	cont "כדי שיעריך את"
+	cont "!הפוקידע שלך"
 	done
 
-_ViridianForestText12:: ; 805c6 (20:45c6)
-	text "TRAINER TIPS"
+_ViridianForestText12::
+	text "עצות למאמן"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "אסור לגנוב"
+	line "פוקימונים"
+	cont "!ממאמנים אחרים"
+	cont "לכוד רק"
+	cont "פוקימונים"
+	cont "!פראיים"
 	done
 
-_ViridianForestText13:: ; 80613 (20:4613)
-	text "TRAINER TIPS"
+_ViridianForestText13::
+	text "עצות למאמן"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
+	para "החלש את"
+	line "הפוקימון היריב"
+	cont "לפני שתנסה"
+	cont "!ללכוד אותו"
 
-	para "When healthy,"
-	line "they may escape!"
+	para ",כשהם בריאים"
+	line "הם עלולים"
+	cont "!לברוח"
 	done
 
-_ViridianForestText14:: ; 80667 (20:4667)
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+_ViridianForestText14::
+	text "יציאה"
+	line "יער ורידיאן"
+	cont "העיר פיוטר"
+	cont ".לפניכם"
 	done
 
