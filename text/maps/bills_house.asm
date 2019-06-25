@@ -1,88 +1,92 @@
 _BillsHouseText_1e865:: ; 8d267 (23:5267)
-	text "Hiya! I'm a"
-	line "#MON..."
-	cont "...No I'm not!"
+	text "קיה! אני"
+	line "...פוקימון"
+	cont "אני לא באמת"
+	cont ".פוקימון"
 
-	para "Call me BILL!"
-	line "I'm a true blue"
-	cont "#MANIAC! Hey!"
-	cont "What's with that"
-	cont "skeptical look?"
+	para "שמי ביל! אני"
+	line "מעריץ אדוק אך"
+	cont "עצוב של פוקימונים"
+	cont "היי! מה הקטע"
+	cont "של המבט הספקני"
+	cont "?הזה"
 
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
+	para "אני לא צוחק"
+	line "איתך, פישלתי"
+	cont "בניסוי שערכתי"
+	cont "ושולבתי יחד עם"
+	cont "!פוקימון"
 
-	para "So, how about it?"
-	line "Help me out here!"
+	para "?אז מה אתה אומר"
+	line "!תעזור לי"
 	done
 
 _BillsHouseText_1e86a:: ; 8d345 (23:5345)
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my PC and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "כשאהיה בתוך"
+	line "המשגר, לך אל"
+	cont "המחשב שלי והפעל"
+	cont "את מערכת הפרדת"
+	cont "!התאים"
 	done
 
 _BillsHouseText_1e86f:: ; 8d391 (23:5391)
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
+	text ",לא?! בחייך"
+	line "תעזור לאדם"
+	cont "!בעת צרה"
 
-	para "What do you say,"
-	line "chief? Please?"
-	cont "OK? All right!"
+	para "אז מה אתה אומר"
+	line "?המפקד? בבקשה"
+	cont "!בסדר? יופי"
 	prompt
 
 _BillThankYouText:: ; 8d3f5 (23:53f5)
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
+	text "!ביל: יאה"
+	line "!תודה, חבר"
+	cont "!אני חייב לך"
 
-	para "So, did you come"
-	line "to see my #MON"
-	cont "collection?"
-	cont "You didn't?"
-	cont "That's a bummer."
+	para "אז, באת לראות"
+	line "את אוסף"
+	cont "?הפוקימונים שלי"
+	cont "?לא"
+	cont ".חבל"
 
-	para "I've got to thank"
-	line "you... Oh here,"
-	cont "maybe this'll do."
+	para "אני חייב להודות"
+	line ",לך... אה, הנה"
+	cont ".אולי זה יספיק"
 	prompt
 
 _SSTicketReceivedText:: ; 8d499 (23:5499)
-	text $52, " received"
-	line "an @"
+	text "קיבל ", $52
+	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _SSTicketNoRoomText:: ; 8d4b0 (23:54b0)
-	text "You've got too"
-	line "much stuff, bud!"
+	text "אתה נושא יותר"
+	line "!מדי דברים, חבר"
 	done
 
 _BillsHouseText_1e8cb:: ; 8d4d0 (23:54d0)
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
+	text "אוניית שיט"
+	line "התענוגות, אן"
+	cont "הקדושה עוגנת"
+	cont ".בעיר ורמיליון"
+	cont "כל נוסעיה"
+	cont "!מאמני פוקימונים"
 
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	para "הם הזמינו אותי"
+	line ",למסיבה שלהם"
+	cont "אבל אני לא סובל"
+	cont "את הכל הגינונים"
+	cont "והנימוסים. למה"
+	cont "?שלא תלך במקומי"
 	done
 
 _BillsHouseText_1e8da:: ; 8d57f (23:557f)
-	text "BILL: Look, bud,"
-	line "just check out"
-	cont "some of my rare"
-	cont "#MON on my PC!"
+	text "ביל: היי, חבר"
+	line "אתה חייב לראות"
+	cont "כמה מהפוקימונים"
+	cont "הנדירים שיש לי"
+	cont "!במחשב"
 	done
 
