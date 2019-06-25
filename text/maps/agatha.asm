@@ -1,6 +1,6 @@
 _AgathaBeforeBattleText:: ; 8686b (21:686b)
 	text "אני אגאת'ה"
-	line "!מרביעיית האליט"
+	line "!מרביעיית העלית"
 
 	para "אוק גילה"
 	line ",עניין רב בך"
