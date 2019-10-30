@@ -1,19 +1,18 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@@"
+	text "$אוק: היי! חכה רגע!"
+	line "$אל תצא לשם!@@"
 
 _OakWalksUpText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "$אוק: זה לא בטוח!""OAK: It's unsafe!"
+	line "$פוקימוני פרא חיים"
+	cont "$בין העשבים הגבוהים!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "$תזדקק לפוקימון"
+	line "$משלך שיגן עליך."
+	cont "$אני יודע!"
 
-	para "Here, come with"
-	line "me!"
+	para "$הנה, בוא"
+	line "$איתי!"
 	done
 
 _PalletTownText2::
@@ -26,22 +25,22 @@ _PalletTownText2::
 	done
 
 _PalletTownText3::
-	text "Technology is"
-	line "incredible!"
+	text "טכנולוגיה זה דברTechnology is"
+	line "נפלא!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "$אפשר ממש לאחסן"
+	line "$ולמשוך בחזרה חפצים"
+	cont "$ופוקימונים כנתונים"
+	cont "$באמצעות המחשב!"
 	done
 
 _PalletTownText4::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "$מעבדת מחקר"
+	line "$הפוקימונים של אוק"
 	done
 
 _PalletTownText5::
-	text "PALLET TOWN"
+	text "העיירה פאלט"
 	line "Shades of your"
 	cont "journey await!"
 	done

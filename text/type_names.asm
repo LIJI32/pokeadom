@@ -28,34 +28,34 @@ TypeNamePointers: ; 27dae (9:7dae)
 	dw Type1AName
 
 Type00Name: ; 27de4 (9:7de4)
-	db "NORMAL@"
+	db "$רגיל@"
 Type01Name: ; 27deb (9:7deb)
-	db "FIGHTING@"
+	db "$לחימה@"
 Type02Name: ; 27df4 (9:7df4)
-	db "FLYING@"
+	db "$מעופף@"
 Type03Name: ; 27dfb (9:7dfb)
-	db "POISON@"
+	db "$רעל@"
 Type14Name: ; 27e02 (9:7e02)
-	db "FIRE@"
+	db "$אש@"
 Type15Name: ; 27e07 (9:7e07)
-	db "WATER@"
+	db "$מים@"
 Type16Name: ; 27e0d (9:7e0d)
-	db "GRASS@"
+	db "$עשב@"
 Type17Name: ; 27e13 (9:7e13)
-	db "ELECTRIC@"
+	db "$חשמל@"
 Type18Name: ; 27e1c (9:7e1c)
-	db "PSYCHIC@"
+	db "$על חושי@"
 Type19Name: ; 27e24 (9:7e24)
-	db "ICE@"
+	db "$קרח@"
 Type04Name: ; 27e28 (9:7e28)
-	db "GROUND@"
+	db "$אדמה@"
 Type05Name: ; 27e2f (9:7e2f)
-	db "ROCK@"
+	db "$סלע@"
 Type06Name: ; 27e34 (9:7e34)
-	db "BIRD@"
+	db "$ציפור@"
 Type07Name: ; 27e39 (9:7e39)
-	db "BUG@"
+	db "$חרק@"
 Type08Name: ; 27e3d (9:7e3d)
-	db "GHOST@"
+	db "$רוח@"
 Type1AName: ; 27e43 (9:7e43)
-	db "DRAGON@"
+	db "$דרקון@"

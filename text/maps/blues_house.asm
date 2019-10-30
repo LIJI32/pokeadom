@@ -1,42 +1,42 @@
 _DaisyInitialText::
-	text "Hi ",$52,"!"
-	line $53," is out at"
-	cont "Grandpa's lab."
+	text "היי ",$52,"!"
+	line $53,"נמצא במעבדה"
+	cont "של סבא."
 	done
 
 _DaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "סבא ביקש ממך"
+	line "לצאת לשליחות?"
+	cont "הנה, זה יהיה"
+	cont "לך לעזר!"
 	prompt
 
 _GotMapText::
-	text $52," got a"
+	text $52," קיבל"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _DaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "יש לך יותר מדי"
+	line "חפצים עליך."
 	done
 
 _DaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "השתמש במפת העיירה"
+	line "כדי למצוא"
+	cont "היכן אתה."
 	done
 
 _BluesHouseText2::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "פוקימונים הם"
+	line "יצורים חיים! אם"
+	cont "יתעייפו, תן"
+	cont "להם מנוחה!"
 	done
 
 _BluesHouseText3::
-	text "It's a big map!"
-	line "This is useful!"
+	text "זו מפה גדולה!"
+	line "מאד שימושי!"
 	done
 

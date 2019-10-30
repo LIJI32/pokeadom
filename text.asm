@@ -1110,7 +1110,7 @@ _PlayerMonFaintedText:: ; 8970c (22:570c)
 	prompt
 
 _UseNextMonText:: ; 8971a (22:571a)
-	text "Use next #MON?"
+	text "להוציא את הפוקימון הבא?"
 	done
 
 _Sony1WinText:: ; 8972a (22:572a)
@@ -1159,17 +1159,17 @@ _NoWillText:: ; 897c9 (22:57c9)
 	prompt
 
 _CantEscapeText:: ; 897e3 (22:57e3)
-	text "Can't escape!"
+	text "לא ניתן לברוח!"
 	prompt
 
 _NoRunningText:: ; 897f1 (22:57f1)
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "לא! אסור"
+	line "לברוח מקרבות"
+	cont "מאמן!"
 	prompt
 
 _GotAwayText:: ; 8981f (22:581f)
-	text "Got away safely!"
+	text "יצא מזה בשלום!"
 	prompt
 
 _ItemsCantBeUsedHereText:: ; 89831 (22:5831)

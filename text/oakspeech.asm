@@ -1,56 +1,56 @@
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "שלום!"
+	line "ברוכים הבאים"
+	cont "לעולם של פוקימון!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "שמי הוא אוק!"
+	line "מכנים אותי"
+	cont "פרופסור פוקימון!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@@"
+	text "העולם הזה"
+	line "מאוכלס על ידי"
+	cont "יצורים המכונים"
+	cont "פוקימונים!@@"
 
 _OakSpeechText2B::
-	text $51,"For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	text $51,"עבור חלק מהאנשים,"
+	line "פוקימונים הם"
+	cont "חיות מחמד. אחרים"
+	cont "משתמשים בהם לקרב."
 
-	para "Myself..."
+	para "ואנוכי..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "אני חוקר פוקימונים"
+	line "כמקצוע."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "תחילה, אמור לי,"
+	line "מהו שמך?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "זהו הנכד שלי."
+	line "הוא היה היריב"
+	cont "שלך עוד מאז"
+	cont "שהייתם זאטוטים."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...אממ, מה היה"
+	line "שמו שוב?"
 	prompt
 
 _OakSpeechText3::
 	text $52,"!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "סיפור הפוקימונים"
+	line "האישי שלך"
+	cont "עומד להתגלות!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "עולם של חלומות"
+	line "והרפתקאות"
+	cont "עם פוקימונים"
+	cont "ממתין! קדימה!"
 	done
 
